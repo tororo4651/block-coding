@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<%- include('./components/common/_head.ejs', { pageTitle: 'トップページ', imagePath: '../' }) %>
+
+<body class="top">
+
+<%- include('components/common/_header', { imagePath: '../' }) %>
+
+
+<main id="home">
+
+  <div class="primaryHero">
+    <div class="primaryHero__inner l-lg-container">
+
+      <div class="primaryHero__content">
+        <h1 class="primaryHero__heading">I'm <strong>Elle Kasai</strong>, a <strong>designer/developer</strong> based in Vancouver, Canada.</h1>
+
+        <p class="primaryHero__text">このポートフォリオサイトのコードは<a class="primaryHero__textLink" href="#" target="_blank" target="_blank">こちら</a>にまとまっています｡<br class="u-lg-show">
+        お問い合わせは<a class="primaryHero__textLink" id="contact-link" href="#contact" aria-labelledby="contact contact-link">コンタクトフォーム</a>からどうぞ。</p>
+
+        <ul class="primaryHero__sns sns">
+          <li class="sns__item">
+            <a class="sns__link" href="#" target="_blank">
+              <i class="sns__icon sns__icon--01 fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li class="sns__item">
+            <a class="sns__link" href="#" target="_blank">
+              <i class="sns__icon sns__icon--01 fa-brands fa-dribbble"></i>
+            </a>
+          </li>
+
+          <li class="sns__item">
+            <a class="sns__link" href="#" target="_blank">
+              <i class="sns__icon sns__icon--01 fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="sns__item">
+            <a class="sns__link" href="#" target="_blank">
+              <i class="sns__icon sns__icon--01 fa-brands fa-medium"></i>
+            </a>
+          </li>
+
+          <li class="sns__item">
+            <a class="sns__link" href="#" target="_blank">
+              <i class="sns__icon sns__icon--01 fa-brands fa-youtube"></i>
+            </a>
+          </li>
+
+          <li class="sns__item">
+            <a class="sns__link" href="#" target="_blank">
+              <i class="sns__icon sns__icon--01 fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.primaryHero__content -->
+
+      <figure class="primaryHero__figure u-md-show">
+        <img class="primaryHero__image" src="../images/top/profile.jpg" alt="写真：プロフィールの顔写真" >
+      </figure>
+
+    </div><!-- /.primaryHero__inner.l-lg-container -->
+  </div><!-- /.primaryHero -->
+
+  <section class="primarySection" id="works">
+    <h2 class="primarySection__heading primaryHeading primaryHeading--center">
+      <i class="primaryHeading__icon fa-sharp fa-solid fa-palette"></i>Works
+    </h2>
+
+    <div class="l-lg-container">
+
+      <section class="primarySection__media">
+        <div class="primarySection__mediaContent">
+          <h3 class="primarySection__mediaHeading">過去のお仕事 1</h3>
+
+          <p class="primarySection__mediaText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+
+          <p class="primarySection__mediaText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+
+          <a class="primarySection__mediaBtn primaryBtn primaryBtn--navy" href="#">もっと読む</a>
+        </div><!-- /.primarySection__mediaContent -->
+
+        <figure class="primarySection__mediaFigure">
+
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="/src/images/works/work-a3-540.jpg 540w,
+                      /src/images/works/work-a3-1080.jpg 1080w,
+                      /src/images/works/work-a3-1620.jpg 1620w"
+              sizes="91.6vw">
+
+            <source
+              media="(max-width: 1280px)"
+              srcset="/src/images/works/work-a3-540.jpg 540w,
+                      /src/images/works/work-a3-1080.jpg 1080w,
+                      /src/images/works/work-a3-1620.jpg 1620w"
+              sizes="42.2vw">
+
+            <source
+              media="(min-width: 1281px)"
+              srcset="/src/images/works/work-a3-540.jpg 540w,
+                      /src/images/works/work-a3-1080.jpg 1080w,
+                      /src/images/works/work-a3-1620.jpg 1620w"
+              sizes="540px">
+
+            <img class="primarySection__mediaImage primarySection__mediaImage--navy" src="/src/images/works/work-a3.jpg" alt="" width="540" height="378">
+          </picture>
+
+
+          <!-- <img class="primarySection__mediaImage primarySection__mediaImage--navy"
+            srcset="/src/images/works/work-a3-540.jpg 540w,
+                    /src/images/works/work-a3-1080.jpg 1080w,
+                    /src/images/works/work-a3-1620.jpg 1620w"
+
+            sizes="(max-width: 767px) 91.6vw,
+                   (max-width: 1280px) 42.2vw,
+                   (min-width: 1281px) 540px"
+
+            src="/src/images/works/work-a3.jpg" alt="" width="540" height="378"> -->
+
+        </figure>
+      </section><!-- /.primarySection__media.primarySection__media--01 -->
+
+      <section class="primarySection__media">
+        <div class="primarySection__mediaContent">
+          <h3 class="primarySection__mediaHeading">過去のお仕事 2</h3>
+
+          <p class="primarySection__mediaText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+
+          <p class="primarySection__mediaText">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+
+          <a class="primarySection__mediaBtn primaryBtn primaryBtn--purple" href="#">もっと読む</a>
+        </div><!-- /.primarySection__mediaContent -->
+
+        <figure class="primarySection__mediaFigure">
+          <img class="primarySection__mediaImage primarySection__mediaImage--purple" src="/src/images/works/work-b.jpg" alt="" width="540" height="377">
+        </figure>
+      </section><!-- /.primarySection__media.primarySection__media--02-->
+
+    </div><!-- /.l-lg-container -->
+  </section>
+
+  <section class="topSection" id="about">
+    <h2 class="topSection__lv1Heading primaryHeading primaryHeading--center">
+      <i class="primaryHeading__icon fa-sharp fa-solid fa-icons"></i>About
+    </h2>
+
+    <img class="topSection__image01 u-sp-only" src="../images/top/profile.jpg" alt="" width="360" height="360">
+    <img class="topSection__image02 u-md-show" src="../images/top/about.jpg" alt="" width="1440" height="560">
+
+    <div class="topSection__content l-lg-container">
+
+      <section class="topSection__section">
+        <h3 class="topSection__lv2Heading">自己紹介</h3>
+
+        <p class="topSection__text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+
+        <p class="topSection__text">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+      </section><!-- /.topSection__section -->
+
+      <div class="topSection__sectionWrapper">
+        <section class="topSection__section">
+          <h3 class="topSection__lv2Heading">スキルセット</h3>
+
+          <ul class="topSection__skills">
+            <li class="topSection__skillsItem">UI/UX デザイン</li>
+
+            <li class="topSection__skillsItem">情報設計</li>
+
+            <li class="topSection__skillsItem">マーケティング</li>
+
+            <li class="topSection__skillsItem">HTML5</li>
+
+            <li class="topSection__skillsItem">CSS3</li>
+
+            <li class="topSection__skillsItem">JavaScript</li>
+
+            <li class="topSection__skillsItem">IT講師</li>
+
+            <li class="topSection__skillsItem">IT技術書執筆</li>
+
+            <li class="topSection__skillsItem">動画編集</li>
+          </ul>
+        </section><!-- /.topSection__section -->
+
+        <section class="topSection__section">
+          <h3 class="topSection__lv2Heading">関連リンク</h3>
+
+          <ul class="topSection__sns sns">
+            <li class="sns__item">
+              <a class="sns__link" href="#" target="_blank">
+                <i class="sns__icon sns__icon--02 fa-brands fa-github"></i>
+              </a>
+            </li>
+
+            <li class="sns__item">
+              <a class="sns__link" href="#" target="_blank">
+                <i class="sns__icon sns__icon--02 fa-brands fa-dribbble"></i>
+              </a>
+            </li>
+
+            <li class="sns__item">
+              <a class="sns__link" href="#" target="_blank">
+                <i class="sns__icon sns__icon--02 fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li class="sns__item">
+              <a class="sns__link" href="#" target="_blank">
+                <i class="sns__icon sns__icon--02 fa-brands fa-medium"></i>
+              </a>
+            </li>
+
+            <li class="sns__item">
+              <a class="sns__link" href="#" target="_blank">
+                <i class="sns__icon sns__icon--02 fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li class="sns__item">
+              <a class="sns__link" href="#" target="_blank">
+                <i class="sns__icon sns__icon--02 fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </section><!-- /.topSection__section -->
+      </div><!-- /.topSection__sectionWrapper -->
+
+    </div><!-- /.topSection__content.l-lg-container -->
+  </section>
+
+</main>
+
+
+<%- include('components/common/_footer.ejs', { imagePath: '../' }) %>
+
+</body>
+</html>
